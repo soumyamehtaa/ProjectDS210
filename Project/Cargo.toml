@@ -1,0 +1,12 @@
+[package]
+name = "project"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+rand = "0.8"
+polars = { version = "0.44.2", features = ["lazy", "csv"] }
+petgraph = "0.6.1"
+#csv = "1.1.6"
+smartcore = { version = "0.4.0", features = ["datasets"] }
+csv = "1.1"
